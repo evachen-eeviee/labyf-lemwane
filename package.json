@@ -1,0 +1,36 @@
+{
+  "name": "jsae",
+  "version": "1.0.0",
+  "main": "server/serveur.ts",
+  "private": true,
+  "type": "module",
+  "description": "JSAE - Projet unniversitaire pour découvrire ts",
+  "author": "Hugo Straseele <hugo.straseele.etu@univ-lille.fr> Eva Chen <eva.chen.etu@univ-lille.fr> Valentino Paganin <valentino.paganin.etu@univ-lille.fr>",
+  "homepage": "https://gitlab.univ-lille.fr/jsae",
+  "license": "UNLICENSED",
+  "scripts": {
+    "client:start": "vite --port=8000 --host 0.0.0.0 client",
+    "client:start:localhost": "vite --port=8000 client",
+    "client:build": "tsc && vite build",
+    "client:preview": "vite preview",
+    "server": "node .",
+    "server:watch": "node --watch .",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.5.0",
+    "jest": "^30.3.0",
+    "prettier": "^3.8.1",
+    "ts-jest": "^29.4.6",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3"
+  }
+}

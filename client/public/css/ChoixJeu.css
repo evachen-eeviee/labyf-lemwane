@@ -1,0 +1,21 @@
+#contentChoixJeu {
+    min-width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.btnStyleChoixJeu {
+	margin: 50px 10px 10px 10px;
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	border: 2px solid var(--main-color);
+	background-color: var(--bg-color);
+	box-shadow: 4px 4px var(--main-color);
+	font-size: 17px;
+	font-weight: 600;
+	color: var(--font-color);
+	cursor: pointer;
+}
