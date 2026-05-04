@@ -1,0 +1,170 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Fond dégradé */
+#background-sunrise {
+    -fx-background-color: linear-gradient(to bottom right, #3498db, #f57c00);
+}
+
+#background-gamer {
+    -fx-background-color: linear-gradient(to bottom right, #8E2DE2, #EF629F);
+}
+
+#background-nature {
+    -fx-background-color: linear-gradient(to bottom right, #11998e, #38ef7d);
+}
+
+#background-chaude {
+    -fx-background-color: linear-gradient(to bottom right, #FF6B5C, #FF8C42);
+}
+
+#background-rouge {
+    -fx-background-color: #FF6B6B;
+}
+
+#background-vert {
+    -fx-background-color: #2ECC71;
+}
+
+#background-bleu {
+    -fx-background-color: #4A90E2;
+}
+
+#background-violet {
+    -fx-background-color: #9B59B6;
+}
+
+#background-jaune {
+    -fx-background-color: #B8860B;
+}
+
+
+/* Titre du jeu */
+.label-titre {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-padding: 40;
+    -fx-text-fill: white;
+}
+
+/* Label principal */
+.label-section {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+/* Label erreur */
+.label-erreur-petit {
+    -fx-font-size: 14px;
+    -fx-text-fill: #ff5555;
+    -fx-font-weight: normal;
+}
+
+/*Titre principal */
+.titre-section {
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 50;
+}
+
+/* Champs texte */
+.text-field {
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+/* Boutons principaux (profil, partie libre) */
+.button-principal {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20 10 20;
+
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+
+    -fx-background-insets: 0;
+
+    -fx-cursor: hand;
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+.button-principal:hover {
+-fx-background-color: #2980b9;
+-fx-border-color: white;
+-fx-border-radius: 10;
+
+-fx-background-insets: 0;
+
+-fx-scale-x:1.1;
+-fx-scale-y:1.1;
+}
+
+.button-direction {
+-fx-background-color: #6050dc;
+-fx-text-fill: white;
+-fx-font-size: 16px;
+-fx-font-weight: bold;
+-fx-background-radius: 10;
+-fx-padding: 10 10 10 10;
+}
+
+.button-rouge {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20 10 20;
+    -fx-cursor: hand;
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+.button-rouge:hover {
+    -fx-background-color: #c0392b; /* rouge foncé */
+}
+
+.button-vert {
+    -fx-background-color: #27ae60;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20 10 20;
+    -fx-cursor: hand;
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+.button-vert:hover {
+    -fx-background-color: #1e8449; /* vert foncé */
+}
+
+.combo-theme {
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+    -fx-border-color: #333;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 6px 10px;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #222;
+}
+
+#overlay {
+    -fx-background-color: rgba(0,0,0,0.7);
+}
+
+.label-fin{
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
